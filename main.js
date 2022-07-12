@@ -23,14 +23,16 @@ if(localStorage.getItem("bestBrain")){
 
 
 const traffic = [
-  new Car(road.getLaneCenter(1), -100,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(0), -300,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(2), -300,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(0), -500,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(1), -500,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(1), -700,30,50, "DUMMY", 2),
-  new Car(road.getLaneCenter(2), -700,30,50, "DUMMY", 2)
-
+  new Car(road.getLaneCenter(1), -100,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(0), -300,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -300,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(0), -500,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -500,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -700,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -700,30,50, "DUMMY", 2,
+  getRandomColor()),
+  new Car(road.getLaneCenter(0), -1100,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -1400,30,50, "DUMMY", 2,getRandomColor())
 ];
 
 
