@@ -86,8 +86,8 @@ class Sensor {
       }
 
       ctx.beginPath();
-      ctx.lineWidth=2;
-      ctx.strokeStyle="yellow";
+      ctx.lineWidth=1;
+      ctx.strokeStyle="transparent";
       ctx.moveTo(
         this.rays[i][0].x,
         this.rays[i][0].y
@@ -100,7 +100,7 @@ class Sensor {
 
         ctx.beginPath();
       ctx.lineWidth=2;
-      ctx.strokeStyle="black";
+      ctx.strokeStyle="transparent";
       ctx.moveTo(
         this.rays[i][1].x,
         this.rays[i][1].y

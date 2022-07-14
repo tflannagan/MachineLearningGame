@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: rgb(91, 21, 255);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(121, 9, 118) 18%, rgb(0, 212, 255) 49%);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -24,7 +24,7 @@ button:hover {
 }
 
 #networkCanvas {
-  background: black;
+  background: transparent;
 }
 
 #carCanvas {
