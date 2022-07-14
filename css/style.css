@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background: darkgray;
+  background: rgb(91, 21, 255);
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -20,7 +20,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  background: blue;
+  background: rgb(11, 198, 255);
 }
 
 #networkCanvas {
