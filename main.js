@@ -38,7 +38,18 @@ const traffic = [
   new Car(road.getLaneCenter(2), -1850,30,50, "DUMMY", 2,getRandomColor()),
   new Car(road.getLaneCenter(1), -1900,30,50, "DUMMY", 2,getRandomColor()),
   new Car(road.getLaneCenter(1), -2000,30,50, "DUMMY", 2,getRandomColor()),
-  new Car(road.getLaneCenter(0), -2100,30,50, "DUMMY", 2,getRandomColor())
+  new Car(road.getLaneCenter(0), -2150,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -2200,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -2270,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(0), -2300,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -2470,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -2520,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -2570,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(1), -2700,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -2770,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(0), -2820,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -2870,30,50, "DUMMY", 2,getRandomColor()),
+  new Car(road.getLaneCenter(2), -2970,30,50, "DUMMY", 2,getRandomColor())
 ];
 
 
