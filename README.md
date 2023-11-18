@@ -8,7 +8,7 @@ The Machine Learning Car Game is a fascinating experiment that blends machine le
 
 ## :man_technologist: Created By
 
-This project is developed by [Ty Flannagan](https://www.tyflannagan.tech/), an innovative software developer passionate about blending the realms of gaming and artificial intelligence.
+This project is developed by [Ty Flannagan](https://www.tyflannagan.tech/) 😎
 
 ## :fire: Main Features
 
